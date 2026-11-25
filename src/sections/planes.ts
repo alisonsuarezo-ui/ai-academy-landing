@@ -48,7 +48,7 @@ export function planes(): string {
           <ol class="result__progress" aria-hidden="true"><li data-q="tamano"></li><li data-q="tiempo"></li><li data-q="objetivo"></li></ol>
         </div>
         <div class="result__full" data-result-full hidden>
-          <img class="result__max" src="/max/aprobando.webp" width="400" height="749" alt="" loading="lazy" decoding="async" />
+          <img class="result__max" src="max/aprobando.webp" width="400" height="749" alt="" loading="lazy" decoding="async" />
           <p class="eyebrow">Tu misión ideal</p>
           <p class="result__name" data-result-name>Booster</p>
           <p class="result__meta" data-result-meta>8 h · En vivo</p>

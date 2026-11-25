@@ -43,7 +43,7 @@ export function hero(): string {
     <div class="hero__visual">
       <div class="hero__orbit" aria-hidden="true"><span></span><span></span></div>
       <div class="hero__max" data-hero-max>
-        <img src="/max/presentando.webp" width="560" height="816" alt="Max, el astronauta de AI Academy, presentando la misión" fetchpriority="high" decoding="async" />
+        <img src="max/presentando.webp" width="560" height="816" alt="Max, el astronauta de AI Academy, presentando la misión" fetchpriority="high" decoding="async" />
       </div>
       <p class="telemetry" aria-hidden="true">
         <span class="telemetry__dot"></span><span data-telemetry>T-00:03 · En plataforma</span>

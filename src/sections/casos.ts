@@ -84,7 +84,7 @@ export function faqs(): string {
       ${etapa(7, 'Llegada')}
       <h2 class="h2">Preguntas <em class="hl">frecuentes</em></h2>
       <p class="lead">Modalidades, fechas y requisitos. Si tu duda no está aquí, escríbenos.</p>
-      <img class="faq__max" src="/max/explicando.webp" width="400" height="699" alt="" loading="lazy" decoding="async" />
+      <img class="faq__max" src="max/explicando.webp" width="400" height="699" alt="" loading="lazy" decoding="async" />
     </div>
     <div class="faq__list">
       ${join(

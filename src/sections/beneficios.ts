@@ -44,7 +44,7 @@ export function porQueAhora(): string {
 
     <form class="card calc" data-calc data-reveal aria-labelledby="calc-title" onsubmit="return false">
       <div class="calc__head">
-        <img src="/max/visor-cansado.webp" width="72" height="63" alt="" loading="lazy" decoding="async" />
+        <img src="max/visor-cansado.webp" width="72" height="63" alt="" loading="lazy" decoding="async" />
         <h3 class="h3" id="calc-title">El costo de esperar</h3>
       </div>
 

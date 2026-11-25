@@ -91,7 +91,7 @@ export function herramientas(): string {
           ${lineas(pos)}
         </svg>
         <div class="constellation__core" aria-hidden="true">
-          <img src="/brand/casco-blanco.webp" width="40" height="32" alt="" loading="lazy" decoding="async" />
+          <img src="brand/casco-blanco.webp" width="40" height="32" alt="" loading="lazy" decoding="async" />
         </div>
         <ul class="constellation__list" aria-label="Herramientas">
           ${join(HERRAMIENTAS, (h, i) => {
@@ -112,7 +112,7 @@ export function herramientas(): string {
         <div class="tool-panel" id="tool-panel" data-tool-panel aria-labelledby="tool-name">
           ${panelHerramienta(primera)}
         </div>
-        <img class="tool-card__max" src="/max/trabajando.webp" width="400" height="604" alt="" loading="lazy" decoding="async" />
+        <img class="tool-card__max" src="max/trabajando.webp" width="400" height="604" alt="" loading="lazy" decoding="async" />
       </div>
     </div>
   </div>

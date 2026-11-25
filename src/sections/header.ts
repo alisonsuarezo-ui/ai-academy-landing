@@ -5,7 +5,7 @@ import { icons } from './icons';
 /** Logo horizontal blanco: formato ancho sobre fondo oscuro (manual 03 · Logo). */
 const logo = `
   <a class="brand" href="#inicio" aria-label="Campuslands AI Academy, volver al inicio">
-    <img src="/brand/logo-horizontal-blanco.webp" width="168" height="38" alt="Campuslands AI Academy" decoding="async" />
+    <img src="brand/logo-horizontal-blanco.webp" width="168" height="38" alt="Campuslands AI Academy" decoding="async" />
   </a>`;
 
 export function header(): string {

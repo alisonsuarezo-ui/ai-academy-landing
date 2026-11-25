@@ -35,10 +35,7 @@ npx serve dist-static
 
 **GitHub Pages**
 
-Los recursos usan rutas absolutas (`/max/…`, `/brand/…`). Hay dos opciones:
-
-- Usar un dominio propio, que es lo más simple.
-- Publicar en `usuario.github.io/repo`: define `site` y `base` en `astro.config.mjs` y despliega con la acción oficial [`withastro/action`](https://docs.astro.build/en/guides/deploy/github/).
+El workflow `.github/workflows/deploy.yml` publica la página en `usuario.github.io/repo` con cada push a `main`. Solo hay que activar una vez *Settings → Pages → Source: GitHub Actions*. Las imágenes usan rutas relativas (`max/…`, `brand/…`), así que funcionan tanto en la raíz de un dominio como en un subdirectorio.
 
 ## Arquitectura
 
